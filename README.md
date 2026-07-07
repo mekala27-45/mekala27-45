@@ -27,7 +27,7 @@ I train and evaluate **frontier large language models** for leading AI labs, and
 | **[IntentSentinel](https://github.com/mekala27-45/intent-sentinel)** | End-to-end ML + MLOps: purchase-intent prediction (LightGBM) with MLflow registry, FastAPI serving, and from-scratch drift detection — the model degrades 0.96→0.84 ROC-AUC on unseen holiday traffic and the monitor explains why. | `MLflow` `FastAPI` `Docker` |
 | **[NanoGPT-Lab](https://github.com/mekala27-45/nanogpt-lab)** | A Llama-style transformer built from scratch (RoPE, RMSNorm, SwiGLU, KV-cache) with ablations and a test proving KV-cache decoding is bit-identical to a full forward pass. | `PyTorch` `Transformers` |
 | **[GroundedRAG](https://github.com/mekala27-45/grounded-rag)** | Hybrid dense+BM25 RAG over scientific abstracts, evaluated on SciFact's official qrels (nDCG@10 0.72); refuses on weak evidence and flags hallucinated citations. | `Qdrant` `BM25` `RAG` |
-| **[EdgeVision](https://github.com/mekala27-45/edge-vision)** | Real ImageNet classification 100% in-browser via ONNX Runtime Web (WASM); MobileNetV2 quantized to INT8 — 3.6× smaller, 2.15× faster, 90% agreement. | `ONNX` `React` `TypeScript` |
+| **[EdgeVision](https://github.com/mekala27-45/edge-vision)** · ▶️ **[live](https://mekala27-45.github.io/edge-vision/)** | Real ImageNet classification 100% in-browser via ONNX Runtime Web (WASM); MobileNetV2 quantized to INT8 — 3.6× smaller, 2.15× faster, 90% agreement. | `ONNX` `React` `TypeScript` |
 
 ---
 
