@@ -4,8 +4,8 @@
 
 I build and operate the machine learning platform behind Walmart's promotion and clearance pricing, and I evaluate frontier models on contract for AI labs. Four years across both: **$7.8M in incremental revenue** from automated SKU selection and markdown optimization, and **200+ golden-solution engineering tasks** with **50+ accepted Terminal-Bench environments** authored for frontier coding benchmarks.
 
-M.S. Data Science, Montclair State University (2026)
-Authorized to work in the U.S. without sponsorship
+M.S. Data Science, Montclair State University (2026)<br>
+Authorized to work in the U.S. without sponsorship<br>
 New Jersey, USA
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ajaymekala/)
@@ -44,12 +44,12 @@ Most of the work is the part that makes those possible. Dockerized inference, un
 
 ## Tech I work with
 
-**Languages** · Python · SQL · TypeScript/JavaScript · Go · Bash · R · C
-**ML and Deep Learning** · PyTorch · TensorFlow · scikit-learn · XGBoost · LightGBM · Transformers · RLHF/DPO/SFT · LLM-as-a-judge
-**MLOps** · MLflow · Databricks · Docker · Kubernetes · Terraform · FastAPI · blue-green deployment · drift detection
-**Data Engineering** · Delta Lake · Spark · PySpark · Airflow · Kafka · dbt · Pandas · NumPy
-**Cloud** · Azure (Databricks, Data Lake, Pipelines, Event Hubs) · AWS (S3, Redshift, Lambda) · GCP (BigQuery, Dataflow)
-**Databases** · PostgreSQL · Snowflake · BigQuery · MongoDB · Redis · FAISS · pgvector
+**Languages** · Python · SQL · TypeScript/JavaScript · Go · Bash · R · C<br>
+**ML and Deep Learning** · PyTorch · TensorFlow · scikit-learn · XGBoost · LightGBM · Transformers · RLHF/DPO/SFT · LLM-as-a-judge<br>
+**MLOps** · MLflow · Databricks · Docker · Kubernetes · Terraform · FastAPI · blue-green deployment · drift detection<br>
+**Data Engineering** · Delta Lake · Spark · PySpark · Airflow · Kafka · dbt · Pandas · NumPy<br>
+**Cloud** · Azure (Databricks, Data Lake, Pipelines, Event Hubs) · AWS (S3, Redshift, Lambda) · GCP (BigQuery, Dataflow)<br>
+**Databases** · PostgreSQL · Snowflake · BigQuery · MongoDB · Redis · FAISS · pgvector<br>
 **Analytics and BI** · Power BI · Tableau · Plotly · A/B testing · hypothesis testing
 
 ---
