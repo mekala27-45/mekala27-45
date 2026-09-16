@@ -1,12 +1,12 @@
 # Hi, I'm Ajay Mekala 👋
 
-### Data Scientist · AI Training & LLM Evaluation · Data Analytics
+### AI/ML Engineer · Production ML Platforms · MLOps · Frontier Model Evaluation
 
-I train and evaluate **frontier large language models** for leading AI labs, and turn messy data into business decisions. Four years across both worlds: **10,000+ model outputs evaluated at 98%+ inter-annotator agreement**, and **$3.2M+ in measurable analytics impact**.
+I build and operate the machine learning platform behind Walmart's promotion and clearance pricing, and I evaluate frontier models on contract for AI labs. Four years across both: **$7.8M in incremental revenue** from automated SKU selection and markdown optimization, and **200+ golden-solution engineering tasks** with **50+ accepted Terminal-Bench environments** authored for frontier coding benchmarks.
 
-🎓 M.S. Data Science, Montclair State University (2026)  
-🇺🇸 F-1 OPT — authorized to work for any U.S. employer, no sponsorship required  
-📍 New Jersey, USA
+M.S. Data Science, Montclair State University (2026)
+Authorized to work in the U.S. without sponsorship
+New Jersey, USA
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ajaymekala/)
 [![Portfolio](https://img.shields.io/badge/Portfolio-111827?style=flat&logo=githubpages&logoColor=white)](https://mekala27-45.github.io)
@@ -14,42 +14,48 @@ I train and evaluate **frontier large language models** for leading AI labs, and
 
 ---
 
-## 🔭 Featured Projects
+## What I do now
+
+**AI/ML Engineer at Walmart.** The ML platform behind promotion and clearance pricing, on Azure Databricks, Delta Lake and MLflow, with infrastructure in Terraform. It serves 200,000+ predictions per month. Two systems sit on top of it: PromotionsAI, which automates SKU selection across every customer touchpoint, and ClearanceAI, a markdown optimizer that fuses demand elasticity models with stock age heuristics and lifted sell-through 4.6%.
+
+Most of the work is the part that makes those possible. Dockerized inference, unified MLflow lineage, blue-green releases through Azure Pipelines, an automated A/B testing harness, and the reusable connector libraries the team builds on. Research to production lead time down 40%, experiment turnaround down 60%, incident MTTR halved.
+
+**Frontier model evaluation, on contract since 2022** for Handshake AI, Snorkel AI, Mercor and Outlier. Agent trajectory scoring, benchmark task authoring, rubric design, red-teaming. 3,000+ side-by-side preference comparisons at 98%+ agreement with senior reviewers.
+
+---
+
+## Featured Projects
 
 | Project | What it does | Stack |
 |---|---|---|
-| **[LLM Eval Toolkit](https://github.com/mekala27-45/llm-eval-toolkit)** | Production-grade framework for evaluating LLMs with structured rubrics, golden solutions, and multi-dimensional scoring. 79+ tests, Docker, CI, mkdocs. | `Python` `LLM` `RLHF` |
+| **[trajectory](https://github.com/mekala27-45/trajectory)** · ▶️ **[live demo](https://mekala27-45.github.io/trajectory/)** | Evaluation harness for coding agents that scores the trajectory, not just the outcome. 12 containerized tasks with hidden tests the agent never sees, 10 trajectory metrics, a 10 mode failure taxonomy, and a leaderboard where any run replays step by step. Three agents tied at exactly 100% pass rate and were separated on three other metrics. Six failure modes fired 213 times on runs that **passed** every hidden test, across 68% of all successes, which a conventional failure table reports as zero. 719 tests, 86.7% coverage, every published figure recomputed from the run records by CI. Apache 2.0, `v0.1.1`. | `Python` `Docker` `FastAPI` `Postgres` `Next.js` |
+| **[pricepoint](https://github.com/mekala27-45/pricepoint)** | Price elasticity and constrained markdown decisions on public retail data, with temporal evaluation, model gates, shadow serving and drift monitoring. | `Python` `MLOps` |
+| **[IntentSentinel](https://github.com/mekala27-45/intent-sentinel)** · ▶️ **[live](https://huggingface.co/spaces/mekalaajayk/intent-sentinel)** | End-to-end ML and MLOps: purchase-intent prediction (LightGBM) with MLflow registry, FastAPI serving, and from-scratch drift detection. The model degrades 0.96 to 0.84 ROC-AUC on unseen holiday traffic and the monitor explains why. | `MLflow` `FastAPI` `Docker` |
+| **[GroundedRAG](https://github.com/mekala27-45/grounded-rag)** · ▶️ **[live](https://huggingface.co/spaces/mekalaajayk/grounded-rag)** | Hybrid dense and BM25 RAG over scientific abstracts, evaluated on SciFact's official qrels (nDCG@10 0.72); refuses on weak evidence and flags hallucinated citations. | `Qdrant` `BM25` `RAG` |
+| **[NanoGPT-Lab](https://github.com/mekala27-45/nanogpt-lab)** · ▶️ **[live](https://huggingface.co/spaces/mekalaajayk/nanogpt-lab)** | A Llama-style transformer built from scratch (RoPE, RMSNorm, SwiGLU, KV-cache) with ablations and a test proving KV-cache decoding is bit-identical to a full forward pass. | `PyTorch` `Transformers` |
+| **[EdgeVision](https://github.com/mekala27-45/edge-vision)** · ▶️ **[live](https://mekala27-45.github.io/edge-vision/)** | Real ImageNet classification 100% in-browser via ONNX Runtime Web (WASM); MobileNetV2 quantized to INT8, 3.6x smaller and 2.15x faster at 90% agreement. | `ONNX` `React` `TypeScript` |
 | **[MetricFlow Analytics](https://github.com/mekala27-45/metricflow-analytics)** | End-to-end analytics-engineering platform: 34 dbt models, 5 ML models (XGBoost 89% AUC), Evidence.dev dashboards over a simulated 50K-user SaaS. | `dbt` `Python` `SQL` |
+| **[spec-exact-c](https://github.com/mekala27-45/spec-exact-c)** | From-scratch, byte-exact C reimplementations of standard-library algorithms, each verified by a differential fuzzing harness against the reference implementation. | `C` `Testing` `Docker` |
 | **[DataLens AI](https://github.com/mekala27-45/datalens-ai)** | Natural-language-to-SQL analytics layer that turns plain questions into queries, charts, and insights. | `Python` `NLP` `SQL` |
 | **[DocMind AI](https://github.com/mekala27-45/docmind-ai)** | Document-understanding pipeline that extracts tables, figures, and key-value content from PDFs. | `Python` `CV` `NLP` |
 | **[Bioacoustic Platform](https://github.com/mekala27-45/bioacoustic-platform)** | Audio classification platform using signal processing and deep-learning models. | `Python` `PyTorch` `Audio` |
-| **[spec-exact-c](https://github.com/mekala27-45/spec-exact-c)** | From-scratch, byte-exact C reimplementations of standard-library algorithms, each verified by a differential fuzzing harness against the reference implementation. | `C` `Testing` `Docker` |
-| **[IntentSentinel](https://github.com/mekala27-45/intent-sentinel)** · ▶️ **[live](https://huggingface.co/spaces/mekalaajayk/intent-sentinel)** | End-to-end ML + MLOps: purchase-intent prediction (LightGBM) with MLflow registry, FastAPI serving, and from-scratch drift detection — the model degrades 0.96→0.84 ROC-AUC on unseen holiday traffic and the monitor explains why. | `MLflow` `FastAPI` `Docker` |
-| **[NanoGPT-Lab](https://github.com/mekala27-45/nanogpt-lab)** · ▶️ **[live](https://huggingface.co/spaces/mekalaajayk/nanogpt-lab)** | A Llama-style transformer built from scratch (RoPE, RMSNorm, SwiGLU, KV-cache) with ablations and a test proving KV-cache decoding is bit-identical to a full forward pass. | `PyTorch` `Transformers` |
-| **[GroundedRAG](https://github.com/mekala27-45/grounded-rag)** · ▶️ **[live](https://huggingface.co/spaces/mekalaajayk/grounded-rag)** | Hybrid dense+BM25 RAG over scientific abstracts, evaluated on SciFact's official qrels (nDCG@10 0.72); refuses on weak evidence and flags hallucinated citations. | `Qdrant` `BM25` `RAG` |
-| **[EdgeVision](https://github.com/mekala27-45/edge-vision)** · ▶️ **[live](https://mekala27-45.github.io/edge-vision/)** | Real ImageNet classification 100% in-browser via ONNX Runtime Web (WASM); MobileNetV2 quantized to INT8 — 3.6× smaller, 2.15× faster, 90% agreement. | `ONNX` `React` `TypeScript` |
 
 ---
 
-## 🛠️ Tech I work with
+## Tech I work with
 
-**Languages** · Python · SQL · R · JavaScript · Bash · C  
-**ML / AI** · PyTorch · TensorFlow · scikit-learn · Transformers · LoRA/PEFT · RLHF/DPO/SFT · LLM-as-a-judge  
-**Data & BI** · Pandas · NumPy · PySpark · dbt · Airflow · Power BI · Tableau · Looker Studio  
-**Cloud & Infra** · AWS (S3, Redshift, Lambda) · GCP (BigQuery, Dataflow) · Docker · Git · CI/CD  
-**Databases** · PostgreSQL · BigQuery · Snowflake · MongoDB · DuckDB
-
----
-
-## 📊 GitHub
-
-![Ajay's GitHub stats](https://github-readme-stats.vercel.app/api?username=mekala27-45&show_icons=true&theme=default&hide_border=true&count_private=true)
-![Top languages](https://github-readme-stats.vercel.app/api/top-langs/?username=mekala27-45&layout=compact&theme=default&hide_border=true)
+**Languages** · Python · SQL · TypeScript/JavaScript · Go · Bash · R · C
+**ML and Deep Learning** · PyTorch · TensorFlow · scikit-learn · XGBoost · LightGBM · Transformers · RLHF/DPO/SFT · LLM-as-a-judge
+**MLOps** · MLflow · Databricks · Docker · Kubernetes · Terraform · FastAPI · blue-green deployment · drift detection
+**Data Engineering** · Delta Lake · Spark · PySpark · Airflow · Kafka · dbt · Pandas · NumPy
+**Cloud** · Azure (Databricks, Data Lake, Pipelines, Event Hubs) · AWS (S3, Redshift, Lambda) · GCP (BigQuery, Dataflow)
+**Databases** · PostgreSQL · Snowflake · BigQuery · MongoDB · Redis · FAISS · pgvector
+**Analytics and BI** · Power BI · Tableau · Plotly · A/B testing · hypothesis testing
 
 ---
 
-## 🤝 Let's connect
+## Let's connect
 
-I'm open to full-time roles in **AI/ML, ML evaluation, and data science / analytics**.
+Open to **AI/ML Engineer, Machine Learning Engineer, MLOps and model evaluation** roles.
 
 📫 **[mekalaajayk@gmail.com](mailto:mekalaajayk@gmail.com)** · 💼 **[LinkedIn](https://www.linkedin.com/in/ajaymekala/)** · 🌐 **[Portfolio](https://mekala27-45.github.io)**
