@@ -1,6 +1,6 @@
 # Ajay Mekala
 
-I'm an AI/ML engineer at Walmart, where I work on the machine learning platform behind promotion and clearance pricing. Since 2022 I've also done contract model evaluation for Handshake AI, Snorkel AI, Mercor and Outlier: writing benchmark tasks, scoring coding-agent runs and building rubrics.
+I'm an AI/ML engineer at Walmart, where I work on the machine learning platform behind promotion and clearance pricing. Before Walmart, I was an AI Engineer at Tech Mahindra, building RAG and multi-agent systems on Azure OpenAI and LangGraph for enterprise clients. Since 2022 I've also done contract model evaluation for Handshake AI, Snorkel AI, Mercor and Outlier: writing benchmark tasks, scoring coding-agent runs and building rubrics.
 
 MS in Data Science, Montclair State University (2026). I live in New Jersey and I'm authorized to work in the U.S. without sponsorship.
 
